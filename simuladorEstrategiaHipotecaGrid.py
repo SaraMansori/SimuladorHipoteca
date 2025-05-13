@@ -1011,7 +1011,9 @@ class HipotecaSimulator:
                 print(f"Amortización inicial: {self.amortizacion_inicial:,.2f}€")
             
             print(f"Cuota mensual inicial: {self.cuota_mensual:,.2f}€")
-            
+            cf = self.df_gastos.iloc[-1]["Cuota"]
+            print(f"Cuota mensual final (tras estrategia): {cf:,.2f}€")
+
             # Estrategia de amortización - adaptar mensaje según configuración
             hay_estrategia = self.amortizacion_inicial > 0 or (self.años_amortizacion_parcial > 0 and self.amortizacion_semestral_valor > 0)
             
@@ -2293,3 +2295,4 @@ if __name__ == "__main__":
     
     print("Simulación con amortización constante:")
     df_estandar5, df_estrategia5, df_gastos5, ahorro5, sim5 = ejemplo_amortizacion_constante15_2400()
+
