@@ -147,7 +147,7 @@ mejor_simulador = grid.obtener_mejor_estrategia(criterio='ahorro_total')
 mejor_simulador.resumen_ejecutivo()
 ```
 
-![Ejemplo Grid Search](img/grid_search_example.mp4)
+![Ejemplo Grid Search](img/grid_search_example.gif)
 
 ## Explicación de parámetros clave
 
