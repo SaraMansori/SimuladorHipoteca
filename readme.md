@@ -243,8 +243,6 @@ Si solo necesitas simular y analizar una estrategia específica de amortización
 
 Para análisis comparativos y optimización de estrategias, utiliza la funcionalidad completa que incluye `HipotecaGridSearch`:
 
-La carpeta `/examples` contiene ejemplos específicos para cada caso de uso, desde el más básico hasta búsquedas avanzadas con múltiples parámetros.
-
 ## Créditos
 
 - Yasser 'hda' Fuentes
